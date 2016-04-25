@@ -72,14 +72,16 @@ li {
 }*/
 
 .share {
-  background-color: red;
+  background-color: #D77060;
   color: white;
   height: 50px;
+  width: 150px;
   border-style: none;
 }
 
-.bottom-icon {
-
+.picture {
+height: 70px;
+width: 73px;
 }
 
 .footer {
@@ -89,14 +91,14 @@ li {
 }
 
 .grey-bar {
-  width: 100%;
-  background-color: grey;
-}
-
-.gray-bar {
-  border-top: solid;
+  background: repeating-linear-gradient(
+  45deg,
+  white,
+  white 1px,
+  grey 1px,
+  grey 2px);
 }
 
 .bottom-logo {
-  margin-left: 47.5%;
+  text-align: center;
 }
